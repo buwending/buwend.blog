@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-Hans">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -24,6 +24,7 @@
 <meta property="og:title" content="test">
 <meta property="og:url" content="https://buwending.github.io/buwend.blog/2020/03/09/test/index.html">
 <meta property="og:site_name" content="Buwend Blog">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-03-09T01:39:30.000Z">
 <meta property="article:modified_time" content="2020-03-09T01:39:30.727Z">
 <meta property="article:author" content="buwend">
@@ -81,7 +82,7 @@
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Navigationsleiste an/ausschalten">
+    <div class="toggle" aria-label="切换导航栏">
       <span class="toggle-line toggle-line-first"></span>
       <span class="toggle-line toggle-line-middle"></span>
       <span class="toggle-line toggle-line-last"></span>
@@ -111,12 +112,22 @@
   <ul id="menu" class="menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/buwend.blog/" rel="section"><i class="fa fa-fw fa-home"></i>Startseite</a>
+    <a href="/buwend.blog/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/buwend.blog/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/buwend.blog/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/buwend.blog/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archiv</a>
+    <a href="/buwend.blog/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
 
   </li>
   </ul>
@@ -144,7 +155,7 @@
       
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-Hans">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://buwending.github.io/buwend.blog/2020/03/09/test/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -166,9 +177,9 @@
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              <span class="post-meta-item-text">Veröffentlicht am</span>
+              <span class="post-meta-item-text">发表于</span>
 
-              <time title="Erstellt: 2020-03-09 09:39:30" itemprop="dateCreated datePublished" datetime="2020-03-09T09:39:30+08:00">2020-03-09</time>
+              <time title="创建时间：2020-03-09 09:39:30" itemprop="dateCreated datePublished" datetime="2020-03-09T09:39:30+08:00">2020-03-09</time>
             </span>
 
           
@@ -251,10 +262,10 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          Inhaltsverzeichnis
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Übersicht
+          站点概览
         </li>
       </ul>
 
@@ -274,11 +285,15 @@
           <a href="/buwend.blog/archives/">
         
           <span class="site-state-item-count">2</span>
-          <span class="site-state-item-name">Artikel</span>
+          <span class="site-state-item-name">日志</span>
         </a>
       </div>
   </nav>
 </div>
+  <div class="sidebar-button motion-element"><i class="fa fa-comment"></i>
+    Chat
+  </a>
+  </div>
 
 
 
@@ -305,10 +320,10 @@
   </span>
   <span class="author" itemprop="copyrightHolder">buwend</span>
 </div>
-  <div class="powered-by">Erstellt mit  <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.2.0
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.2.0
   </div>
   <span class="post-meta-divider">|</span>
-  <div class="theme-info">Design – <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.7.2
+  <div class="theme-info">主题 – <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.7.2
   </div>
 
         
@@ -325,6 +340,8 @@
   </div>
 
   
+  
+  <script color='65,105,225' opacity='0.7' zIndex='-1' count='99' src="/buwend.blog/lib/canvas-nest/canvas-nest.min.js"></script>
   <script src="/buwend.blog/lib/anime.min.js"></script>
   <script src="/buwend.blog/lib/velocity/velocity.min.js"></script>
   <script src="/buwend.blog/lib/velocity/velocity.ui.min.js"></script>
